@@ -9,6 +9,7 @@ const AstronomyCard = (props) => {
     return (
        <div className="astronomy-card">
 
+
        <h6 className="astronomy-title">{title}</h6>
 
        <a href="{hdurl}" className="astronomy-image-wrapper">
