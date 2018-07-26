@@ -17,7 +17,7 @@ const AstronomyCard = (props) => {
 
        <p>{explanation}</p>
 
-            <span>{date}, {copyright}</span>
+            <span>{copyright}, {date}</span>
 
 
        </div>
