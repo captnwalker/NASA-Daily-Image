@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Syncopate|Titillium+Web');
+@import url('https://fonts.googleapis.com/css?family=Syncopate|Titillium+Web|GFS+Neohellenic');
 $brand-purple: rgb(135,
 140,
 223);
@@ -32,7 +32,9 @@ body {
   .astronomy-title {
     margin: 25px 0;
     padding: 15px 45px;
-    font-family: 'Syncopate', sans-serif;
+    font-family: 'GFS Neohellenic',
+    sans-serif;
+    font-weight: 700;
     font-size: 1.25rem;
     color: #5907cc;
   }

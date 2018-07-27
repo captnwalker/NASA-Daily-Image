@@ -12,7 +12,7 @@
 
 ### Screenshot of this project
 
-![NASA-Daily-Image1](https://raw.github.com/captnwalker/NASA-Daily-Image/master/screenshots/screenshot.jpg "NASA-Daily-Image1")
+![NASA-Daily-Image1](https://raw.github.com/captnwalker/NASA-Daily-Image/master/screenshots/screenshot.png "NASA-Daily-Image1")
 
 ### Tech Stack
 
