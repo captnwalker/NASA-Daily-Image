@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Syncopate|Titillium+Web|GFS+Neohellenic);body {
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web|Hind+Siliguri);body {
   height: 100vh;
   background: #eaeaea;
   color: rgba(0, 0, 0, 0.87);
@@ -22,22 +22,23 @@
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  -webkit-box-shadow: 5px 5px 10px 0px #190c80;
-  box-shadow: 5px 5px 10px 0px #190c80; }
+  -webkit-box-shadow: 5px 5px 10px 0px rgba(25, 12, 128, 0.9);
+  box-shadow: 5px 5px 10px 0px rgba(25, 12, 128, 0.9); }
   .astronomy-card .astronomy-title {
     margin: 25px 0;
     padding: 15px 45px;
-    font-family: 'GFS Neohellenic', sans-serif;
-    font-weight: 700;
+    font-family: 'Hind+Siliguri', sans-serif;
+    font-weight: 500;
     font-size: 1.25rem;
-    color: #5907cc; }
+    color: #5907cc;
+    text-shadow: 1px 1px #29035e; }
   .astronomy-card .astronomy-image-wrapper {
     padding: 10px; }
     .astronomy-card .astronomy-image-wrapper img {
       cursor: pointer;
       max-height: 500px;
-      -webkit-filter: drop-shadow(6px 6px 12px rgba(8, 6, 114, 0.534));
-      filter: drop-shadow(6px 6px 12px rgba(8, 6, 114, 0.534));
+      -webkit-box-shadow: 5px 5px 10px 0px rgba(25, 12, 128, 0.9);
+      box-shadow: 5px 5px 10px 0px rgba(25, 12, 128, 0.9);
       -webkit-transition: all 325ms ease-in-out;
       transition: all 325ms ease-in-out; }
       .astronomy-card .astronomy-image-wrapper img:hover {

@@ -1,10 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Syncopate|Titillium+Web|GFS+Neohellenic');
-$brand-purple: rgb(135,
-140,
-223);
-$brand-green: rgb(153,
-251,
-198);
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web|Syncopate');
 $font-size: 5rem;
 $body_font: "Titillium Web",
 sans-serif;
@@ -14,6 +8,8 @@ body {
   height: 100vh;
   background: #eaeaea;
   color: rgba(0, 0, 0, 0.87);
+  font-family: 'Titillium Web',
+  sans-serif;
   padding: 0;
   margin: 0;
 }
@@ -26,24 +22,27 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  -webkit-box-shadow: 5px 5px 10px 0px rgba(25, 12, 128, 1);
-  -moz-box-shadow: 5px 5px 10px 0px rgba(25, 12, 128, 1);
-  box-shadow: 5px 5px 10px 0px rgba(25, 12, 128, 1);
+  -webkit-box-shadow: 5px 5px 10px 0px rgba(25, 12, 128, .9);
+  -moz-box-shadow: 5px 5px 10px 0px rgba(25, 12, 128, .9);
+  box-shadow: 5px 5px 10px 0px rgba(25, 12, 128, .9);
   .astronomy-title {
     margin: 25px 0;
     padding: 15px 45px;
-    font-family: 'GFS Neohellenic',
-    sans-serif;
-    font-weight: 700;
-    font-size: 1.25rem;
+     font-family: 'Syncopate',
+     sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
     color: #5907cc;
+    text-shadow: 1px 1px #29035e;
   }
   .astronomy-image-wrapper {
     padding: 10px;
     img {
       cursor: pointer;
       max-height: 500px;
-      filter: drop-shadow(6px 6px 12px rgba(8, 6, 114, 0.534));
+      -webkit-box-shadow: 5px 5px 10px 0px rgba(25, 12, 128, .9);
+      -moz-box-shadow: 5px 5px 10px 0px rgba(25, 12, 128, .9);
+      box-shadow: 5px 5px 10px 0px rgba(25, 12, 128, .9);
       transition: all 325ms ease-in-out;
       &:hover {
         transition: all 325ms ease-in-out;
@@ -67,9 +66,8 @@ body {
 
   @media screen and (max-width: $break-med) {
     .astronomy-card {
-      max-width: 100vw;
+      max-width: 100vw !important;
       flex-direction: column;
-   
     }
   }
 
