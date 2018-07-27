@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Syncopate|Titillium+Web|GFS+Neohellenic:700);body {
+@import url(https://fonts.googleapis.com/css?family=Syncopate|Titillium+Web|GFS+Neohellenic);body {
   height: 100vh;
   background: #eaeaea;
   color: rgba(0, 0, 0, 0.87);
@@ -27,7 +27,8 @@
   .astronomy-card .astronomy-title {
     margin: 25px 0;
     padding: 15px 45px;
-    font-family: 'GFS+Neohellenic', sans-serif;
+    font-family: 'GFS Neohellenic', sans-serif;
+    font-weight: 700;
     font-size: 1.25rem;
     color: #5907cc; }
   .astronomy-card .astronomy-image-wrapper {
