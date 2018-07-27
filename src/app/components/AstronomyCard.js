@@ -11,7 +11,7 @@ const AstronomyCard = (props) => {
 
        <h6 className="astronomy-title">{title}</h6>
 
-       <a href="{hdurl}" className="astronomy-image-wrapper responsive-image">
+       <a href="{hdurl}" className="astronomy-image-wrapper">
            <img src={url} alt={title} />
        </a>
 

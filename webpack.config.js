@@ -1,4 +1,4 @@
-const webpack = require('webpack'); // webpack itself
+https: //fonts.google.com/const webpack = require('webpack'); // webpack itself
 const path = require('path'); // nodejs dependency when dealing with paths
 const ExtractTextWebpackPlugin = require('extract-text-webpack-plugin'); // require webpack plugin
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin'); // require webpack plugin

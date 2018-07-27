@@ -1,16 +1,15 @@
-const path = require('path');
-const express = require('express');
-const app = express();
-const publicPath = path.join(__dirname, '..', 'public');
-const port = process.env.PORT || 3000;
+//'use strict';
+var path = require('path');
+var express = require('express');
 
-// Build local server
-app.use(express.static(publicPath));
+var app = express();
 
-app.get('*', (req, res) => {
-    res.sendFile(path.join(publicPath, 'index.html'));
-});
+var staticPath = path.join(__dirname, '/');
+app.use(express.static(staticPath));
 
-app.listen(port, () => {
-    console.log('Server is up and running on port 3000.')
+// Allows you to set port in the project properties.
+app.set('port', process.env.PORT || 3000);
+
+var server = app.listen(app.get('port'), function () {
+    console.log('listening');
 });
